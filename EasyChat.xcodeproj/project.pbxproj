@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2457401029A703B6003B55FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457400F29A703B6003B55FE /* AppDelegate.swift */; };
+		2457401229A703B6003B55FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457401129A703B6003B55FE /* SceneDelegate.swift */; };
+		2457401429A703B6003B55FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457401329A703B6003B55FE /* ViewController.swift */; };
+		2457401729A703B6003B55FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2457401529A703B6003B55FE /* Main.storyboard */; };
+		2457401929A703B8003B55FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2457401829A703B8003B55FE /* Assets.xcassets */; };
+		2457401C29A703B8003B55FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2457401A29A703B8003B55FE /* LaunchScreen.storyboard */; };
+		2457402729A70694003B55FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2457402629A70694003B55FE /* GoogleService-Info.plist */; };
+		2457402929A7105B003B55FE /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457402829A7105B003B55FE /* ChatViewController.swift */; };
+		2457403C29A71762003B55FE /* RightChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457403229A71762003B55FE /* RightChatMessageCell.swift */; };
+		2457403D29A71762003B55FE /* ChatMessageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457403429A71762003B55FE /* ChatMessageTextView.swift */; };
+		2457403E29A71762003B55FE /* ChatBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457403529A71762003B55FE /* ChatBubbleView.swift */; };
+		2457403F29A71762003B55FE /* ChatMessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457403629A71762003B55FE /* ChatMessageType.swift */; };
+		2457404029A71762003B55FE /* LeftChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457403729A71762003B55FE /* LeftChatMessageCell.swift */; };
+		2457404129A71762003B55FE /* ImageMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2457403929A71762003B55FE /* ImageMessageView.swift */; };
+		3B1CDF4A774615526CCDF289 /* Pods_EasyChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 246A0B6DF9ED23D9315BC93B /* Pods_EasyChat.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2457400C29A703B6003B55FE /* EasyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2457400F29A703B6003B55FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2457401129A703B6003B55FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2457401329A703B6003B55FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2457401629A703B6003B55FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2457401829A703B8003B55FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2457401B29A703B8003B55FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2457401D29A703B8003B55FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2457402629A70694003B55FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2457402829A7105B003B55FE /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2457403229A71762003B55FE /* RightChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightChatMessageCell.swift; sourceTree = "<group>"; };
+		2457403429A71762003B55FE /* ChatMessageTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageTextView.swift; sourceTree = "<group>"; };
+		2457403529A71762003B55FE /* ChatBubbleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatBubbleView.swift; sourceTree = "<group>"; };
+		2457403629A71762003B55FE /* ChatMessageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessageType.swift; sourceTree = "<group>"; };
+		2457403729A71762003B55FE /* LeftChatMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftChatMessageCell.swift; sourceTree = "<group>"; };
+		2457403929A71762003B55FE /* ImageMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageMessageView.swift; sourceTree = "<group>"; };
+		246A0B6DF9ED23D9315BC93B /* Pods_EasyChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D06CF91C2E3B561F69A6B6D /* Pods-EasyChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChat.release.xcconfig"; path = "Target Support Files/Pods-EasyChat/Pods-EasyChat.release.xcconfig"; sourceTree = "<group>"; };
+		B4E5EF3E6BBB783C0E7B8D7B /* Pods-EasyChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyChat.debug.xcconfig"; path = "Target Support Files/Pods-EasyChat/Pods-EasyChat.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2457400929A703B6003B55FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1CDF4A774615526CCDF289 /* Pods_EasyChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2457400329A703B6003B55FE = {
+			isa = PBXGroup;
+			children = (
+				2457400E29A703B6003B55FE /* EasyChat */,
+				2457400D29A703B6003B55FE /* Products */,
+				7DC5AC3BAF213327E854AEB8 /* Pods */,
+				B200D26C9603A1AF0ABCFF81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2457400D29A703B6003B55FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2457400C29A703B6003B55FE /* EasyChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2457400E29A703B6003B55FE /* EasyChat */ = {
+			isa = PBXGroup;
+			children = (
+				2457402D29A71762003B55FE /* ChatBubbleView */,
+				2457400F29A703B6003B55FE /* AppDelegate.swift */,
+				2457401129A703B6003B55FE /* SceneDelegate.swift */,
+				2457401329A703B6003B55FE /* ViewController.swift */,
+				2457402829A7105B003B55FE /* ChatViewController.swift */,
+				2457401529A703B6003B55FE /* Main.storyboard */,
+				2457401829A703B8003B55FE /* Assets.xcassets */,
+				2457401A29A703B8003B55FE /* LaunchScreen.storyboard */,
+				2457401D29A703B8003B55FE /* Info.plist */,
+				2457402629A70694003B55FE /* GoogleService-Info.plist */,
+			);
+			path = EasyChat;
+			sourceTree = "<group>";
+		};
+		2457402D29A71762003B55FE /* ChatBubbleView */ = {
+			isa = PBXGroup;
+			children = (
+				2457403229A71762003B55FE /* RightChatMessageCell.swift */,
+				2457403329A71762003B55FE /* TextMessage */,
+				2457403529A71762003B55FE /* ChatBubbleView.swift */,
+				2457403629A71762003B55FE /* ChatMessageType.swift */,
+				2457403729A71762003B55FE /* LeftChatMessageCell.swift */,
+				2457403829A71762003B55FE /* ImageMessage */,
+			);
+			path = ChatBubbleView;
+			sourceTree = "<group>";
+		};
+		2457403329A71762003B55FE /* TextMessage */ = {
+			isa = PBXGroup;
+			children = (
+				2457403429A71762003B55FE /* ChatMessageTextView.swift */,
+			);
+			path = TextMessage;
+			sourceTree = "<group>";
+		};
+		2457403829A71762003B55FE /* ImageMessage */ = {
+			isa = PBXGroup;
+			children = (
+				2457403929A71762003B55FE /* ImageMessageView.swift */,
+			);
+			path = ImageMessage;
+			sourceTree = "<group>";
+		};
+		7DC5AC3BAF213327E854AEB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4E5EF3E6BBB783C0E7B8D7B /* Pods-EasyChat.debug.xcconfig */,
+				5D06CF91C2E3B561F69A6B6D /* Pods-EasyChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B200D26C9603A1AF0ABCFF81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				246A0B6DF9ED23D9315BC93B /* Pods_EasyChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2457400B29A703B6003B55FE /* EasyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2457402029A703B8003B55FE /* Build configuration list for PBXNativeTarget "EasyChat" */;
+			buildPhases = (
+				EEB1B0ED257425D000170010 /* [CP] Check Pods Manifest.lock */,
+				2457400829A703B6003B55FE /* Sources */,
+				2457400929A703B6003B55FE /* Frameworks */,
+				2457400A29A703B6003B55FE /* Resources */,
+				F01D44B2D94329C27F615C75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyChat;
+			productName = EasyChat;
+			productReference = 2457400C29A703B6003B55FE /* EasyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2457400429A703B6003B55FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2457400B29A703B6003B55FE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2457400729A703B6003B55FE /* Build configuration list for PBXProject "EasyChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2457400329A703B6003B55FE;
+			productRefGroup = 2457400D29A703B6003B55FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2457400B29A703B6003B55FE /* EasyChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2457400A29A703B6003B55FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2457401C29A703B8003B55FE /* LaunchScreen.storyboard in Resources */,
+				2457402729A70694003B55FE /* GoogleService-Info.plist in Resources */,
+				2457401929A703B8003B55FE /* Assets.xcassets in Resources */,
+				2457401729A703B6003B55FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EEB1B0ED257425D000170010 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F01D44B2D94329C27F615C75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyChat/Pods-EasyChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyChat/Pods-EasyChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyChat/Pods-EasyChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2457400829A703B6003B55FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2457403E29A71762003B55FE /* ChatBubbleView.swift in Sources */,
+				2457404029A71762003B55FE /* LeftChatMessageCell.swift in Sources */,
+				2457403D29A71762003B55FE /* ChatMessageTextView.swift in Sources */,
+				2457404129A71762003B55FE /* ImageMessageView.swift in Sources */,
+				2457401429A703B6003B55FE /* ViewController.swift in Sources */,
+				2457403C29A71762003B55FE /* RightChatMessageCell.swift in Sources */,
+				2457401029A703B6003B55FE /* AppDelegate.swift in Sources */,
+				2457402929A7105B003B55FE /* ChatViewController.swift in Sources */,
+				2457401229A703B6003B55FE /* SceneDelegate.swift in Sources */,
+				2457403F29A71762003B55FE /* ChatMessageType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2457401529A703B6003B55FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2457401629A703B6003B55FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2457401A29A703B8003B55FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2457401B29A703B8003B55FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2457401E29A703B8003B55FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2457401F29A703B8003B55FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2457402129A703B8003B55FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E5EF3E6BBB783C0E7B8D7B /* Pods-EasyChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GBLK6R7V7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EasyChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phammaity.dev.EasyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2457402229A703B8003B55FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D06CF91C2E3B561F69A6B6D /* Pods-EasyChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GBLK6R7V7X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EasyChat/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.phammaity.dev.EasyChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2457400729A703B6003B55FE /* Build configuration list for PBXProject "EasyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2457401E29A703B8003B55FE /* Debug */,
+				2457401F29A703B8003B55FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2457402029A703B8003B55FE /* Build configuration list for PBXNativeTarget "EasyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2457402129A703B8003B55FE /* Debug */,
+				2457402229A703B8003B55FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2457400429A703B6003B55FE /* Project object */;
+}
